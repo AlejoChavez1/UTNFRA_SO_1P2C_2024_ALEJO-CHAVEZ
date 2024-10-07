@@ -1,4 +1,4 @@
-fdisk /dev/sdd
+sudo fdisk /dev/sdd
 n
 p
 
