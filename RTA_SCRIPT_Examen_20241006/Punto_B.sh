@@ -49,6 +49,8 @@ sudo mkfs.ext4 /dev/sdd8
 sudo mkfs.ext4 /dev/sdd9
 sudo mkfs.ext4 /dev/sdd10
 sudo mkfs.ext4 /dev/sdd11
+w
+q
 echo "/dev/sdd1 /Examenes-UTN/alumno_1/parcial_1"  | sudo tee -a /etc/fstab
 sudo mount -a
 echo "/dev/sdd2 /Examenes-UTN/alumno_1/parcial_2"  | sudo tee -a /etc/fstab
